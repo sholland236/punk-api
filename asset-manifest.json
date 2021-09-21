@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/punk-api/static/css/main.1c77fee8.chunk.css",
+    "main.js": "/punk-api/static/js/main.f45a9816.chunk.js",
+    "main.js.map": "/punk-api/static/js/main.f45a9816.chunk.js.map",
+    "runtime-main.js": "/punk-api/static/js/runtime-main.bb6a2560.js",
+    "runtime-main.js.map": "/punk-api/static/js/runtime-main.bb6a2560.js.map",
+    "static/js/2.b76176bc.chunk.js": "/punk-api/static/js/2.b76176bc.chunk.js",
+    "static/js/2.b76176bc.chunk.js.map": "/punk-api/static/js/2.b76176bc.chunk.js.map",
+    "static/js/3.d583684c.chunk.js": "/punk-api/static/js/3.d583684c.chunk.js",
+    "static/js/3.d583684c.chunk.js.map": "/punk-api/static/js/3.d583684c.chunk.js.map",
+    "index.html": "/punk-api/index.html",
+    "static/css/main.1c77fee8.chunk.css.map": "/punk-api/static/css/main.1c77fee8.chunk.css.map",
+    "static/js/2.b76176bc.chunk.js.LICENSE.txt": "/punk-api/static/js/2.b76176bc.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/punk-api/static/media/beer.4a77b147.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb6a2560.js",
+    "static/js/2.b76176bc.chunk.js",
+    "static/css/main.1c77fee8.chunk.css",
+    "static/js/main.f45a9816.chunk.js"
+  ]
+}

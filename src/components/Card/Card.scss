@@ -1,0 +1,27 @@
+.beer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    img {
+        height: 140px;
+        width: 60px;
+    }
+    &__cards {
+        border: 2px solid #252422;
+        border-radius: 7px;
+        box-shadow: 6px 5px 12px 0px rgba(34,85,34,0.8);
+        background-color: #FFFCF2;
+        color: #252422;
+        padding: 15px;
+        h3 {
+            font-size: 25px;
+        }
+        h5 {
+            font-size: 18px;
+        }
+        p {
+            font-size: 15px;
+            padding: 5px;
+        }
+    }
+}

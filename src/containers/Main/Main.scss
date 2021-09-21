@@ -1,0 +1,12 @@
+.main {
+    &__heading {
+        color: #252422;
+        &--title {
+            margin: 30px;
+            margin-top: 0;
+        }
+        &--desc {
+            margin-bottom: 15px;
+        }
+    }
+}

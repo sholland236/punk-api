@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+}
+
+.nav-container {
+  width: 25%;
+  height: 100vh;
+  position: fixed;
+  padding: 30px;
+  // background-color:#EB5E28;
+  background-image: url("./assets/images/beer.jpg");
+  background-size: cover;
+}
+
+.content-container {
+  width: 75%;
+  height: 100%;
+  min-height: 100vh;
+  margin-left: 25%;
+  padding: 30px;
+  background-color: #CCC5B9;
+}

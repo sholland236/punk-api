@@ -9,7 +9,9 @@ function App() {
   // two api arrays so dont need to call each time
   const [beers, setBeers] = useState("");
   const [beersToRender, setBeersToRender] = useState("");
+
   const [searchTerm, setSearchTerm] = useState("");
+
   const [highAlcohol, setHighAlcohol] = useState(false);
   const [classicRange, setClassicRange] = useState(false);
   const [highAcidity, setHighAcidity] = useState(false);
@@ -21,7 +23,6 @@ function App() {
     // } 
     // if (highAlcohol) {
     //   searchedBeer += "?abv_gt=6";
-    //   console.log("hello")
     // }
     // if (classicRange) {
     //   searchedBeer += "?brewed_before=2010"
@@ -71,8 +72,6 @@ function App() {
     setBeersToRender(lowPhArray);
   }
 
-  // [] - only run when initial mount
-  // content in [] watches for change then rerun useEffect 
   useEffect(() => {
     getBeers()
   }, []);
@@ -81,14 +80,11 @@ function App() {
     <div className="App">
       <div className="nav-container">
         <NavBar 
-        searchTerm={searchTerm} 
-        handleInput={handleInput}
-        highAlcohol={highAlcohol}
-        toggleAbv={toggleAbv}
-        classicRange={classicRange}
-        toggleClassic={toggleClassic}
-        highAcidity={highAcidity}
-        toggleAcidity={toggleAcidity}
+          searchTerm={searchTerm} 
+          handleInput={handleInput}
+          toggleAbv={toggleAbv}
+          toggleClassic={toggleClassic}
+          toggleAcidity={toggleAcidity}
         />
       </div>
       <div className="content-container">
@@ -99,7 +95,3 @@ function App() {
 }
 
 export default App;
-
-
-// components are dumb
-// containers are smart - important data into here

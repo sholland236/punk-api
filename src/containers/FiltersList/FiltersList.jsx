@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import "./FiltersList.scss";
 import FilterItem from "../../components/FilterItem/FilterItem";
 
 const FiltersList = (props) => {
-    const { highAlchohol, toggleAbv, classicRange, toggleClassic, highAcidity, toggleAcidity } = props;
+    const { toggleAbv, toggleClassic, toggleAcidity } = props;
 
     return (
         <div className="filter-items">
